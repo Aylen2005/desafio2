@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #32c8f1;
 }
 
 .App-logo {
@@ -14,14 +15,15 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url('https://us.123rf.com/450wm/coffmancmu/coffmancmu1410/coffmancmu141000172/32392042-elegante-fondo-de-cielo-despejado-en-el-d%C3%ADa.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -36,3 +38,44 @@
     transform: rotate(360deg);
   }
 }
+
+button{
+  background: none;
+  border: none;
+}
+button img{
+  height: 4rem;
+  width: 4rem;
+}
+
+.steps {
+  display: flex;
+  align-items: center;
+}
+.change {
+  display: flex;
+  align-items: center;
+}
+
+
+h1 {
+  font-size: 24px; /* Tamaño de fuente más pequeño */
+  font-weight: bold; /* Negrita para resaltar el número */
+  font-family: 'Arial', sans-serif; /* Cambia la fuente según tus preferencias */
+  margin: 0 10px; /* Añade margen entre el índice y los botones */
+}
+
+h2 {
+  font-size: 24px; /* Tamaño de fuente más pequeño */
+  font-weight: bold; /* Negrita para resaltar el número */
+  font-family: 'Arial', sans-serif; /* Cambia la fuente según tus preferencias */
+  margin: 0 10px; /* Añade margen entre el índice y los botones */
+}
+
+/* Estilo para los botones */
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
