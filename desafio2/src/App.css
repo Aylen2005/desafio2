@@ -58,24 +58,21 @@ button img{
 }
 
 
-h1 {
+h1{
   font-size: 24px; /* Tamaño de fuente más pequeño */
   font-weight: bold; /* Negrita para resaltar el número */
   font-family: 'Arial', sans-serif; /* Cambia la fuente según tus preferencias */
-  margin: 0 10px; /* Añade margen entre el índice y los botones */
+  margin: 0 10px; 
 }
-
 h2 {
   font-size: 24px; /* Tamaño de fuente más pequeño */
   font-weight: bold; /* Negrita para resaltar el número */
   font-family: 'Arial', sans-serif; /* Cambia la fuente según tus preferencias */
-  margin: 0 10px; /* Añade margen entre el índice y los botones */
+  margin: 0 10px;
 }
 
-/* Estilo para los botones */
 button {
   background: none;
   border: none;
   cursor: pointer;
 }
-
