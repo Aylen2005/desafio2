@@ -1,78 +1,24 @@
-.App {
-  text-align: center;
-  background-color: #32c8f1;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-image: url('https://us.123rf.com/450wm/coffmancmu/coffmancmu1410/coffmancmu141000172/32392042-elegante-fondo-de-cielo-despejado-en-el-d%C3%ADa.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  min-height: 100vh;
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-button{
-  background: none;
-  border: none;
-}
-button img{
-  height: 4rem;
-  width: 4rem;
-}
-
-.steps {
-  display: flex;
-  align-items: center;
-}
-.change {
-  display: flex;
   align-items: center;
 }
 
-
-h1{
-  font-size: 24px; /* Tamaño de fuente más pequeño */
-  font-weight: bold; /* Negrita para resaltar el número */
-  font-family: 'Arial', sans-serif; /* Cambia la fuente según tus preferencias */
-  margin: 0 10px; 
-}
-h2 {
-  font-size: 24px; /* Tamaño de fuente más pequeño */
-  font-weight: bold; /* Negrita para resaltar el número */
-  font-family: 'Arial', sans-serif; /* Cambia la fuente según tus preferencias */
-  margin: 0 10px;
+.popup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
 }
 
-button {
-  background: none;
-  border: none;
-  cursor: pointer;
+input {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
 }
