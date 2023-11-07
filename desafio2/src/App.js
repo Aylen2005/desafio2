@@ -19,7 +19,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Bienvenido, {nombreIngresado || 'Invitado'}</h1>
+      <h1>Bienvenido, {nombreIngresado}</h1>
       <button onClick={mostrarFormularioHandler}>Mostrar Formulario</button>
       {mostrarFormulario && (
         <NameForm onSubmit={manejarFormulario} onClose={cerrarFormularioHandler} />
